@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>¿Quién es ese actor?</title>
+
+    <link rel="stylesheet" href="estilos.css">
+  
+</head>
+  </head>
+  <body>
+    <div id="toast-container" class="toast-top-center"></div>
+
+
+    <h1>Adivina La Pelicula</h1>
+    <img src="tyeee.webp" alt="Imagen del actor 1" height="100px" width="230px">
+    <img src="olivia.jpeg" alt="olivia">
+    <img src="BenMendelsohn.webp" alt="ben" height="100px" width="187px">
+    <img src="Star_Trek_Beyond_Japan_Premiere_Red_Carpet-_Simon_Pegg_(cropped).jpeg" alt="simon" height="100px" width="210px">
+
+    <form>
+      <label for="respuesta1">¿Que Pelicula Es?</label>
+      <input type="text" id="respuesta1" name="respuesta1">
+      <button type="button" onclick="mostrarAyuda('ayuda1')">Pista</button>
+      <img src="" id="ayuda1" alt="" style="display: none;">
+      <button type="submit" onclick="verificarRespuesta('respuesta1', 'Ready Player One')">Enviar respuesta</button>
+    </form>
+    <hr>
+    <img src="sonny.jpeg" alt="Imagen del actor 2" height="100px" width="250px">
+    <img src="al pacino.jpeg" alt="al" height="100px" width="170px">
+    <img src="Peter_Clemenza.webp" alt="peter" height="100px" width="120px">
+    <img src="vitoo.avif" alt="vito" height="100px" width="300px">
+
+    <form>
+      <label for="respuesta2">¿Qué película es?</label>
+      <input type="text" id="respuesta2" name="respuesta2">
+      <button type="button" onclick="mostrarAyuda('ayuda2')">Pista</button>
+      <img src="" id="ayuda2" alt="" style="display: none;">
+      <button type="submit" onclick="verificarRespuesta('respuesta2', 'Godfather')">Enviar respuesta</button>
+    </form>
+    <hr>
+    <img src="descarga (3).jpeg" alt="Imagen del actor 3 " height="100px" width="150px">
+    <img src="clipping_tGivPR_493a.webp" alt="roberet" height="100px" width="200px">
+    <img src="al-pacino.jpeg" alt="pacino" height="100px" width="350px">
+    <form>
+      <label for="respuesta3">¿Qué película es?</label>
+      <input type="text" id="respuesta3" name="respuesta3">
+      <button type="button" onclick="mostrarAyuda('ayuda3')">Pista</button>
+      <img src="" id="ayuda3" alt="" style="display: none;">
+      <button type="submit" onclick="verificarRespuesta('respuesta3', 'The Irishman')">Enviar respuesta</button>
+    </form>
+<hr>
+<img src="elijah wood.webp" alt="elijah" height="100px" width="200px">
+<img src="mark.jpeg" alt="mark" height="100px" width="240px">
+<img src="kirsten-dunst-nom-pro-gettyimages-1352821735.webp" alt="kristen" height="100px" width="220px">
+<img src="descarga (2).jpeg" alt="descarga" height="100px" width="200px">
+
+<form>
+    <label for="respuesta4">¿Que película es?</label>
+    <input type="text" id="respuesta4" name="respuesta4">
+    <button type="button" onclick="mostrarAyuda('ayuda4')">Pista</button>
+      <img src="jimim.jpeg" id="ayuda4" alt="" style="display: none;">
+    <button type="submit" onclick="verificarRespuesta('respuesta4', 'Eterno Resplandor De Una Mente Sin Recuerdos')" >Enviar respuesta</button>
+    
+</form>
+
+    <div id="resultado"></div>
+    <script>
+   function verificarRespuesta(respuestaId, respuestaCorrecta) {
+  var respuesta = document.getElementById(respuestaId).value;
+  if (respuesta.toLowerCase() === respuestaCorrecta.toLowerCase()) {
+    document.getElementById('resultado').innerHTML = "¡Correcto!";
+    document.getElementById('resultado').className = "correcto";
+    setTimeout(function() {
+      document.getElementById('resultado').innerHTML = "";
+      document.getElementById('resultado').className = "";
+      document.getElementById('resultado').style.display = "none";
+    }, 60000); // Esperar 60 segundos antes de borrar el mensaje y ocultarlo
+  } else {
+    document.getElementById('resultado').innerHTML = "Incorrecto. Inténtalo de nuevo.";
+    document.getElementById('resultado').className = "incorrecto";
+    setTimeout(function() {
+      document.getElementById('resultado').innerHTML = "";
+      document.getElementById('resultado').className = "";
+      document.getElementById('resultado').style.display = "none";
+    }, 60000); // Esperar 60 segundos antes de borrar el mensaje y ocultarlo
+  }
+}
+
+             </script>
+  </body>
+</html>

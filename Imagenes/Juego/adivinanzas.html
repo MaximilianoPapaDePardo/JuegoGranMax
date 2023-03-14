@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adivina la película con sus actores</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Adivina la película con sus actores</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="image-section">
+          <img src="img/pelicula.jpg" alt="Película">
+        </div>
+        <div class="actors-section">
+          <h2>Actores</h2>
+          <ul>
+            <li> <img src="image-w856.webp" alt="imagen" height="150px" width="auto"> Actor 1</li>
+            <li> <img src="" alt=""> Actor 2</li>
+            <li>Actor 3</li>
+          </ul>
+        </div>
+        <form>
+          <h2>Preguntas</h2>
+          <label for="anio">Año de lanzamiento:</label>
+          <input type="text" id="anio" name="anio" required>
+          <br>
+          <label for="genero">Género:</label>
+          <input type="text" id="genero" name="genero" required>
+          <br>
+          <label for="director">Pelicula:</label>
+          <input type="text" id="director" name="director" required>
+          <br>
+          <button type="submit" id="btn-adivinar">Adivinar</button>
+        </form>
+        <div class="result-section">
+          <h2>Resultado</h2>
+          <p id="resultado"></p>
+          <p id="puntuacion"></p>
+          <button type="button" id="btn-reiniciar" class="oculto">Reiniciar</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 - Adivina la película con sus actores</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

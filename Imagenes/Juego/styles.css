@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+background-color: #0eb4ba;  }
+  
+  input[type=text], button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  button {
+    background-color: #0353ff;
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0eb4ba;
+  }
+  
+  #resultado {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  img{
+    border: 5px solid black;
+  }

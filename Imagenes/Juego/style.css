@@ -1,0 +1,84 @@
+
+  body {
+    font-family: Arial, sans-serif;
+background-color: #070707 ;
+  }
+  
+article{ 
+  background-color:  #3ee0f6;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#titulo{
+  text-align: center;
+  color: aqua;
+}
+
+article header hgroup h2 {
+  text-align: center;
+  font-style: normal;
+  font-size: 50px;
+}
+
+aside{
+  color: aquamarine;
+  font-style: italic;
+}
+
+footer{
+  color: aqua;
+  font-style: italic;
+}
+section{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: auto;
+  gap: 3rem;
+ }
+ 
+ section>header{
+    grid-column: span 12;
+   }
+   section>main{
+    grid-column: span 8;
+   }
+   section>aside{
+    grid-column: span 4;
+   }
+   section>footer{
+    grid-column: span 12;
+   }
+
+   aside h2{
+    text-align: center;
+    font-size: 1.3rem;
+   
+   
+  }
+  
+  
+  aside div:nth-child(2n){
+     background-color: rgb(44, 43, 43);
+   display: flex;
+     
+  
+  
+  }
+  aside div img{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #fff;
+     padding: 0.5rem;
+     border-radius: 50%;}
+  
+     aside div{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding: 0.6rem;
+        border-bottom: 1px dashed #fff;
+     }
+
