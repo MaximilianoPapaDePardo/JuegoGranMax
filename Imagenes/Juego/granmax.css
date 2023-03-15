@@ -471,12 +471,12 @@ button{
 
 #anuncios{
     background-color: yellow;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 #memes{
     background-color: black;
-    color: white;
+    color: rgb(245, 240, 240);
 }
 
 #publicaciones{
@@ -524,11 +524,13 @@ button{
   #encuesta {
     width: 80%;
     margin: 0 auto;
+    color: white;
   }
   
   #encuesta h2 {
     text-align: center;
     margin-bottom: 1.5rem;
+    color: white;
   }
   
   #encuesta-form {
