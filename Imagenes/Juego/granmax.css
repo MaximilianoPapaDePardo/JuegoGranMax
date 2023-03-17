@@ -1,14 +1,16 @@
 /* Estilos para el encabezado */
 
 body{
-  background: linear-gradient(to bottom, #FFFFFF, #007FFF);
+  background: linear-gradient(to bottom, #0B3D91, #FFD700);
 
+ 
 }
 
 header {
-  background: linear-gradient(to bottom, #FFFFFF, #007FFF);
+  background: linear-gradient(to bottom, #000000, #FFD700);
 
-	color: rgb(90, 85, 85);
+
+color: gold;
 	padding: 20px;
 }
 
@@ -22,11 +24,89 @@ header h1 {
   right: 0;
   bottom: 0;
   width: 20%;
-  background-color: #121111;
+ 
   padding: 10px;
   box-sizing: border-box;
 }
+.contenedor-juego{
+  height:100vh;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  text-align: center;
 
+}
+
+.juego-titulo, .juego-info{
+  text-align: center;
+}
+
+.juego-cuadricula{
+ 
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap:0;
+}
+
+.cuadro{
+  width:3rem;
+  height: 3rem;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  color:rgb(4, 50, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(6, 156, 255);
+  transition: background-color ease-in 0.2s;
+}
+
+.cuadro:hover{
+ 
+  background-color:#cccc;
+  
+}
+
+.juego-boton{
+  display:inline-flex;
+  padding: 1rem 1rem;
+  background:rgb(51, 0, 255) ;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  justify-content: center;
+  font-weight: bold;
+  transition:color ease-out 0.3s;
+ 
+}
+
+.juego-boton:hover{
+
+  background:rgb(0, 17, 255) ;
+  color: rgb(11, 11, 11);
+  border: 1px solid rgb(255, 255, 255);
+ 
+}
+
+#anuncios{
+  background-color: rgb(255, 255, 0);
+  color: rgb(0, 0, 0);
+}
+
+#memes{
+  background-color: black;
+  color: rgb(245, 240, 240);
+}
+
+#publicaciones{
+  background-color: #0088ff;
+}
+
+#juegos{
+  background-color: red;
+}
 
 nav ul {
 	list-style: none;
@@ -59,11 +139,13 @@ li a {
 
 /* Estilos para los destacados */
 #destacados {
-  background: linear-gradient(to bottom, #007FFF, #FFFFFF);
+  background: linear-gradient(to bottom, #FFD700, #024587);
+
 
 
 	padding: 20px;
-    color: #fbfffb;
+    color: #0a0a0a;
+    text-align: center;
 }
 
 #destacados h2 {
@@ -80,7 +162,8 @@ main {
 	flex-basis: 100%;
 	margin-bottom: 20px;
 	padding: 20px;
-  background: linear-gradient(to bottom, #0B3D91, #FFFFFF);
+  background: linear-gradient(to bottom, #0B3D91, #000000);
+
  color: black;
 }
 
@@ -96,18 +179,19 @@ main {
 
 .publicacion footer {
 	font-style: italic;
-	color: #999;
+	background-color: gold;
+  
 }
 
 .publicacion footer a {
-	color: rgb(255, 247, 247);
+	color: rgb(8, 7, 7);
 }
 
 
 
 /* Estilos para el pie de página */
 footer {
-	background-color: #333;
+	background-color: rgb(1, 141, 206);
 	color: rgb(0, 0, 0);
 	padding: 20px;
 	text-align: center;
@@ -128,11 +212,7 @@ footer p {
 	padding: 20px;
 }
 
-.aside-container {
-	flex-basis: 25%;
-	padding: 20px;
-	background-color: #010f54;
-}
+
 
 * {box-sizing:border-box}
 
@@ -409,85 +489,7 @@ button{
     box-sizing: border-box;
 }
 
-.contenedor-juego{
-    height:100vh;
-    max-width: 1250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:1rem;
-    text-align: center;
 
-}
-
-.juego-titulo, .juego-info{
-    text-align: center;
-}
-
-.juego-cuadricula{
-   
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap:0;
-}
-
-.cuadro{
-    width:3rem;
-    height: 3rem;
-    border: 1px solid rgb(0, 0, 0);
-    text-align: center;
-    color:rgb(4, 50, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(6, 156, 255);
-    transition: background-color ease-in 0.2s;
-}
-
-.cuadro:hover{
-   
-    background-color:#cccc;
-    
-}
-
-.juego-boton{
-    display:inline-flex;
-    padding: 1rem 1rem;
-    background:rgb(51, 0, 255) ;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    justify-content: center;
-    font-weight: bold;
-    transition:color ease-out 0.3s;
-   
-}
-
-.juego-boton:hover{
-  
-    background:rgb(0, 17, 255) ;
-    color: rgb(11, 11, 11);
-    border: 1px solid rgb(255, 255, 255);
-   
-}
-
-#anuncios{
-    background-color: yellow;
-    color: rgb(0, 0, 0);
-}
-
-#memes{
-    background-color: black;
-    color: rgb(245, 240, 240);
-}
-
-#publicaciones{
-    background-color: #0088ff;
-}
-
-#juegos{
-    background-color: red;
-}
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -522,6 +524,10 @@ button{
   }
   h3{
     color: white;
+  }
+
+  h2{
+    text-align: center;
   }
   #encuesta {
     width: 80%;
