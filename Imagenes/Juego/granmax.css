@@ -1,16 +1,15 @@
 /* Estilos para el encabezado */
 
 body{
-  background: linear-gradient(to bottom, #0B3D91, #FFD700);
-
+  background-image: url('trometanazul.avif');
  
 }
 
 header {
-  background: linear-gradient(to bottom, #000000, #FFD700);
+  background-image: url('bernese-mountain-wallpaper-en-blanco-y-negro-wallpaper-stream.-imagen-hd-1080p-blancos-1024x576.jpg');
 
 
-color: gold;
+color: rgb(1, 1, 1);
 	padding: 20px;
 }
 
@@ -66,7 +65,7 @@ header h1 {
 
 .cuadro:hover{
  
-  background-color:#cccc;
+  background-color:rgba(0, 0, 0, 0.8);
   
 }
 
@@ -101,7 +100,8 @@ header h1 {
 }
 
 #publicaciones{
-  background-color: #0088ff;
+  background-image: url('bernese-mountain-wallpaper-en-blanco-y-negro-wallpaper-stream.-imagen-hd-1080p-blancos-1024x576.jpg');
+  
 }
 
 #juegos{
@@ -132,14 +132,14 @@ li{
 
 li a {
   text-decoration: none;
-  color: gold;
+  color: rgb(5, 5, 5);
 }
 
 
 
 /* Estilos para los destacados */
 #destacados {
-  background: linear-gradient(to bottom, #FFD700, #024587);
+  background-image: url('trometanazul.avif');
 
 
 
@@ -162,19 +162,19 @@ main {
 	flex-basis: 100%;
 	margin-bottom: 20px;
 	padding: 20px;
-  background: linear-gradient(to bottom, #0B3D91, #000000);
+  background-image: url('67596.jpeg');
 
- color: black;
+ color: rgb(0, 0, 0);
 }
 
 .publicacion h2 {
 	margin-top: 0;
-    color: whitesmoke;
+    color: rgb(3, 3, 3);
 }
 
 .publicacion p {
 	margin-bottom: 0;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .publicacion footer {

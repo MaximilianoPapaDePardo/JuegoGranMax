@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>   DietMatch - Tu guía para comer</title>
+  <link rel="stylesheet" type="text/css" href="vegano.css">
+</head>
+<body>
+  <header>
+    <h1> <img src="C7D8A7EC-D627-4C45-8A6C-2C2EAAC45B52 (1).png" alt="guia" height="70" width="70"> DietMatch</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Acerca de</a></li>
+        <li><a href="#offer">Nuestra Oferta</a></li>
+        <li><a href="#business-model">Modelo de Negocio</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="dietas vegana.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="pexels-jill-wellington-257816.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="alimentacion-saludable-e1561631186897.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="healthy-lunch-in-boxes-royalty-free-image-1663749509.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="Clinicarusinol-blog-dieta-sin-gluten-es-beneficiosa-sin-ser-celiaco-o-intolerante-al-gluten.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="lactosa.jpeg" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="dietas vegana.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Vegana ">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="vegetariana.jpeg" style="width:100%" onclick="currentSlide(2)" alt="vegetariana">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="variada.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Variada">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="dieta-para-perder-peso-facil-efectiva-sana_994ba8b8_1280x906.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Bajar de Peso">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="imagen-sin-gluten_0.jpg.webp" style="width:100%" onclick="currentSlide(5)" alt="Sin Gluten">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="lactosa.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Lactosa">
+      </div>
+    </div>
+  </div>
+
+  <section id="banner">
+    <h3>Mapa</h3>
+    <div id="map"></div>
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+
+  </section>
+
+  <section id="about">
+    <h3>Acerca de "DietMatch"</h3>
+    <p>Somos una empresa comprometida con la promoción y facilitación del estilo de vida saludable. Nuestra misión es hacer que la transición a comer equilibradamente sea accesible, sabrosa y emocionante para todos.</p>
+    <p>En "DietMatch",estamos comprometidos con ofrecer información, recursos y opciones deliciosas para ayudar a las personas a adoptar un estilo de vida saludable sin esfuerzo.</p>
+  </section>
+
+  <section id="offer">
+    <h3>Nuestra Oferta</h3>
+    <ul>
+      <li>Directorio de restaurantes con una comida que se puede acoplar a tu dieta</li>
+     
+   
+      <li>Recetas  deliciosas y fáciles de preparar</li>
+      <li>Información nutricional y consejos para una alimentación equilibrada</li>
+      <li>Tienda en línea con productos saludables para cualquier dieta</li>
+      <li>Comunidad en línea para compartir experiencias e ideas</li>
+    </ul>
+  </section>
+
+  <section id="directorio">
+    <h3>Directorio</h3>
+    <p>Aqui esta nuestro directorio de restaurantes que tenemos:</p>
+   <li><a href="restaurantesveganos.html" target="_blank">Restaurantes Veganos</a></li>
+    
+<li> <a href="singluten.html" target="_blank">Restaurantes Sin Gluten</a></li>
+<li> <a href="restaurantecarnes.html" target="_blank"> Restaurantes de Carnes</a> </li>
+
+  </section>
+
+  
+  <section id="business-model">
+    <h3>Modelo de Negocio</h3>
+    <p>En DietMatch, generamos ingresos a través de los siguientes medios:</p>
+    <ul>
+      <li>Publicidad y promoción de restaurantes y marcas veganas en nuestro directorio</li>
+      <li>Venta de productos veganos en nuestra tienda en línea</li>
+      <li>Colaboraciones y patrocinios con marcas alineadas con nuestros valores</li>
+    </ul>
+  </section>
+
+  <section id="quiz">
+    <h3>Cuestionario</h3>
+    <p>Completa nuestro cuestionario para obtener recomendaciones personalizadas:</p>
+    <a href="cuestionario.html" class="button">Comenzar Cuestionario</a>
+  </section>
+
+  <section id="contact">
+    <h3>Contacto</h3>
+    <p>¡Nos encantaría escuchar tus preguntas, sugerencias o cualquier otro comentario! No dudes en ponerte en contacto con nosotros:</p>
+    <ul>
+      <li>Email: info@dietmatch.com</li>
+      <li>Teléfono: 442 756 0737</li>
+      <li>Síguenos en las redes sociales:</li>
+    </ul>
+  
+    <div class="social-media">
+        <a href="#" target="_blank"><img src="facebooklogo2.png" alt="Facebook" height="30px" width="30px">Facebook</a>
+        <a href="#"><img src="instagramlogo.webp" alt="Instagram" height="30px" width="30px">Instagram</a>
+        <a href="#"><img src="twitter1.jpg" alt="Twitter" height="30px" width="30px">Twitter</a>
+      </div>
+    </section>
+    
+  
+    <footer>
+      <p>&copy; 2023 DietMatch. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+ <script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+ </script>
+  </html>
+  
