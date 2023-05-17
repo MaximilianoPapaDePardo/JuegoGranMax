@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Maps</title>
-	<link rel="stylesheet" type="text/css" href="api.css">
+  <title>Buscar Restaurantes</title>
 </head>
 <body>
-	<div id="map"></div>
-<script src="script.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+  <h1>Buscar Restaurantes</h1>
+
+  <form id="restaurant-form">
+    <label for="location">Ubicación:</label>
+    <input type="text" id="location" name="location" required>
+
+    <label for="favorite-food">Comida favorita:</label>
+    <input type="text" id="favorite-food" name="favorite-food" required>
+
+    <label for="cuisine-type">Tipo de comida:</label>
+    <select id="cuisine-type" name="cuisine-type" required>
+      <option value="italian">Italiana</option>
+      <option value="mexican">Mexicana</option>
+      <option value="indian">India</option>
+      <!-- Agrega más opciones de tipos de cocina -->
+    </select>
+
+    <label for="dietary-restrictions">Restricciones dietéticas:</label>
+    <input type="text" id="dietary-restrictions" name="dietary-restrictions">
+
+    <button type="submit">Buscar</button>
+  </form>
+
+  <div id="results">
+    <!-- Aquí se mostrarán los resultados de los restaurantes -->
+  </div>
+
+  
 </body>
+<script>
+	document.getElementById("restaurant-form").addEventListener("submit", function(event) {
+  event.preventDefault(); // Evita que el formulario se envíe por defecto
+
+  // Obtén los valores de los campos del formulario
+  var location = document.getElementById("location").value;
+  var favoriteFood = document.getElementById("favorite-food").value;
+  var cuisineType = document.getElementById("cuisine-type").value;
+  var dietaryRestrictions = document.getElementById("dietary-restrictions").value;
+
+  // Envía una solicitud al servidor con los datos del formulario
+  // Aquí debes implementar la lógica de envío de la solicitud al servidor y manejo de los resultados devueltos
+
+  // Luego, puedes mostrar los resultados en el elemento con id "results"
+});
+
+</script>
 </html>

@@ -1,0 +1,191 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('mosaiconegrodorado.jpeg');
+ 
+    
+    color: rgb(67, 62, 44);
+  }
+  
+  header {
+    background-image: url('mosaiconegrodorado.jpeg');
+    color: #fff;
+    padding: 20px;
+  }
+ 
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(67, 62, 44);
+    color: #000000;
+  }
+  
+  
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('IMG-4722.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #666;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .product {
+   text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .product-image {
+    display: block;
+    width: 100%;
+    height: 1000px;
+    border: 7px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    margin: 10px 0;
+  }
+  
+  .product p {
+    margin-bottom: 20px;
+  }
+  
+ 
+  .cta-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #666;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3
+  }
+
+  .founder-image {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .founder-image img {
+    max-width: 200px;
+    height: auto;
+    display: inline-block;
+    border-radius: 10%;
+  }
+  
+  .history-details {
+    text-align: justify;
+  }
+
+  #equipo {
+    padding: 40px 0;
+   
+  }
+  
+  .team-member {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .team-member img {
+    max-width: 200px;
+    height: auto;
+    display: inline-block;
+    border-radius: 10%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    margin: 0;
+  }
+  
+  .team-member p {
+    margin: 0;
+  }
+
+ 
+  
