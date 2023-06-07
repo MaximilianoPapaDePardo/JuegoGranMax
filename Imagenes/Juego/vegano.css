@@ -3,10 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('fondos-naturales-abstractos-56915860.jpeg');
-    background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    background-image: url('marmolverde2.avif');
+   
   }
   
   h1, h2, h3 {
@@ -14,12 +12,10 @@ body {
   }
   
   header {
-    background-image: url('hojas-verdes-sol-fondo-verde-colores-pastel-primavera-natural-copia-espacio_89245-5.avif');
-    color: rgb(0, 0, 0);
+    background-image: url('marmolverde3.avif');
+    color: rgb(255, 252, 252);
     padding: 20px;
-    background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  
   }
   
   nav ul {
@@ -34,7 +30,7 @@ body {
   }
   
   nav ul li a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 249, 249);
     text-decoration: none;
   }
   
@@ -43,11 +39,9 @@ body {
   }
   
   #banner {
-    background-image: url('hojas-verdes-sol-fondo-verde-colores-pastel-primavera-natural-copia-espacio_89245-5.avif');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: rgb(64, 255, 0);
+    background-image: url('marmolverde3.avif');
+    
+    color: rgb(255, 255, 255);
   }
   
   #about p {
@@ -95,10 +89,11 @@ body {
   }
   
   footer {
-    background-color: #f4f4f4;
+  background-image: url(marmolverde3.avif);
     padding: 10px;
     text-align: center;
     font-size: 12px;
+    color: white;
   }
   * {
     box-sizing: border-box;
